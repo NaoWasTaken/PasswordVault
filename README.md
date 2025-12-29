@@ -1,23 +1,23 @@
 # 🔒 SecureVault - Local Password Manager
 
-A beautiful, secure, client-side password manager built for privacy-conscious users. No server, no cloud, no tracking - your passwords never leave your device.
+A secure, client-side password manager built for privacy-conscious users. No server, no cloud, no tracking - your passwords never leave your device.
 
 ![SecureVault Banner](https://img.shields.io/badge/encryption-AES--256-green) ![License](https://img.shields.io/badge/license-MIT-blue) ![Browser](https://img.shields.io/badge/browser-any-orange)
 
-## ✨ Features
+## Features
 
-- **🔐 Military-Grade Encryption**: AES-256 encryption keeps your passwords secure
-- **💻 100% Local**: Everything runs in your browser - no servers, no cloud sync
-- **🎨 Beautiful Interface**: Modern, dark-themed UI designed for usability
-- **🎲 Password Generator**: Create strong, random passwords with customizable options
-- **📊 Password Strength Analysis**: Real-time feedback on password security
-- **📁 Category Organization**: Organize passwords by Bug Bounty, Social Media, Email, Banking, Work, and more
-- **🔍 Fast Search**: Quickly find any password with instant search
-- **📥 Import/Export**: Backup and restore your vault with JSON exports
-- **🚀 Zero Installation**: Just open the HTML file - no installation required
-- **🔒 Auto-Lock**: Secure your vault when you're done
+- **Military-Grade Encryption**: AES-256 encryption keeps your passwords secure
+- **100% Local**: Everything runs in your browser - no servers, no cloud sync
+- **Beautiful Interface**: Modern, dark-themed UI designed for usability
+- **Password Generator**: Create strong, random passwords with customizable options
+- **Password Strength Analysis**: Real-time feedback on password security
+- **Category Organization**: Organize passwords by Bug Bounty, Social Media, Email, Banking, Work, and more
+- **Fast Search**: Quickly find any password with instant search
+- **Import/Export**: Backup and restore your vault with JSON exports
+- **Zero Installation**: Just open the HTML file - no installation required
+- **Auto-Lock**: Secure your vault when you're done
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Method 1: Download and Open
 1. Download `password_manager.html`
@@ -34,7 +34,7 @@ open password_manager.html
 
 That's it! No dependencies, no build process, no npm install - just open and use.
 
-## 📖 How It Works
+## How It Works
 
 ### First Time Setup
 1. Open `password_manager.html` in your browser
@@ -55,7 +55,7 @@ That's it! No dependencies, no build process, no npm install - just open and use
 4. Click 📋 to copy username or password to clipboard
 5. Lock your vault when you're done with the 🔒 button
 
-## 🔐 Security Features
+## Security Features
 
 ### Encryption
 - **Algorithm**: AES-256 (Advanced Encryption Standard)
@@ -64,13 +64,13 @@ That's it! No dependencies, no build process, no npm install - just open and use
 - **No Transmission**: Nothing is ever sent to any server
 
 ### Best Practices
-- ✅ Use a strong, unique master password
-- ✅ Lock your vault when stepping away
-- ✅ Export regular backups
-- ✅ Keep backups in a secure location
-- ⚠️ **IMPORTANT**: If you lose your master password, your data cannot be recovered
+- Use a strong, unique master password
+- Lock your vault when stepping away
+- Export regular backups
+- Keep backups in a secure location
+- **IMPORTANT**: If you lose your master password, your data cannot be recovered
 
-## 💾 Backup & Restore
+## Backup & Restore
 
 ### Export Your Vault
 1. Click "Export Vault" in the sidebar
@@ -82,7 +82,7 @@ That's it! No dependencies, no build process, no npm install - just open and use
 2. Select your backup JSON file
 3. Imported passwords will merge with existing ones
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Bug Bounty Hunters**: Store credentials for testing platforms securely
 - **Developers**: Keep API keys, database passwords, and service credentials safe
@@ -90,7 +90,7 @@ That's it! No dependencies, no build process, no npm install - just open and use
 - **General Users**: Secure all your online accounts without trusting a third party
 - **Offline Use**: Works completely offline once loaded
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Built With
 - **React 18**: For reactive UI components
@@ -109,9 +109,9 @@ That's it! No dependencies, no build process, no npm install - just open and use
 - Zero external dependencies (all CDN-loaded)
 - Works offline after first load
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
-### What We DON'T Do
+### What it DOESN'T Do
 - ❌ No data collection
 - ❌ No analytics or tracking
 - ❌ No cloud sync
@@ -126,7 +126,7 @@ That's it! No dependencies, no build process, no npm install - just open and use
 - ✅ When to lock/unlock
 - ✅ What gets stored
 
-## 📱 Quick Access Setup
+## Quick Access Setup
 
 ### Pin as Browser Tab
 1. Open `password_manager.html`
@@ -144,11 +144,11 @@ That's it! No dependencies, no build process, no npm install - just open and use
 3. Save to bookmarks bar
 4. One-click access anytime
 
-## 🎨 Customization
+## Customization
 
 Want to modify the colors or style? The entire application is self-contained in one HTML file. Open it in any text editor and modify the CSS in the `<style>` section to match your preferences.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -168,7 +168,7 @@ Contributions are welcome! Here's how you can help:
 - Dark/light theme toggle
 - Mobile-optimized interface
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### Master Password Recovery
 **There is NO way to recover your master password.** If you forget it, your encrypted data cannot be decrypted. Make sure to:
@@ -178,29 +178,29 @@ Contributions are welcome! Here's how you can help:
 
 ### Data Persistence
 Your passwords are stored in browser localStorage. This means:
-- ✅ Data persists between sessions
-- ⚠️ Clearing browser data will delete your vault
-- ⚠️ Each browser has its own separate vault
-- ⚠️ Private/Incognito mode data is deleted when closed
+- Data persists between sessions
+- Clearing browser data will delete your vault
+- Each browser has its own separate vault
+- Private/Incognito mode data is deleted when closed
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with React and CryptoJS
 - Inspired by the need for true client-side security
 - Designed for bug bounty hunters and security professionals
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 - Open an issue on GitHub
 - Check existing issues for solutions
 - Review the documentation above
 
-## 🌟 Star This Project
+## Star This Project
 
 If you find SecureVault useful, please consider giving it a star! It helps others discover this tool.
 
