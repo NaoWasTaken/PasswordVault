@@ -28,12 +28,12 @@ SecureVault is built with security as the top priority. This document outlines o
 
 ## ⚠️ Important Security Notes
 
-### What We Can Protect Against
+### What This Can Protect Against
 - ✅ Unauthorized access to encrypted data
 - ✅ Weak password generation
 - ✅ Plaintext password storage
 
-### What We Cannot Protect Against
+### What This Cannot Protect Against
 - ❌ Keyloggers on your device
 - ❌ Compromised browsers or extensions
 - ❌ Physical access to unlocked vault
